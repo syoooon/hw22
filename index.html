@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAP</title>
+	<style type="text/css">
+		#mybody{text-align: center;margin:auto;}
+		h2{padding-bottom: 100px;}
+	</style>
+</head>
+
+<body id="mybody">
+<div>
+	<h1>청년숲 지도</h1>
+	<p>(클릭하면 크게 보실 수 있습니다.)</p>
+</div>
+
+<div>
+<img src="map_plain.png" id="map1" style=" width: 500px;">
+<img src="map_plain_round.png" id="map2" style=" width: 500px;">
+<h2>기본</h2>
+</div>
+<div>
+	
+<img src="map_green.png" id="map3" style=" width: 500px;">
+<img src="map_green_round.png" id="map4" style=" width: 500px;"><h2>그린</h2>
+</div>
+<div>
+
+<img src="map_brown.png" id="map5" style=" width: 500px;">
+<img src="map_brown_round.png" id="map6" style=" width: 500px;"><h2>브라운</h2></div>
+
+</body>
+<script type="text/javascript">
+	var map1state = "off"
+	map1.onclick = function(){
+		if(map1state == "off")
+			{map1.style.width = "1400px";
+			map1state ="on";
+	}else{map1.style.width = "500px";
+			map1state = "off";}
+}
+var map2state = "off"
+	map2.onclick = function(){
+		if(map2state == "off")
+			{map2.style.width = "1400px";
+			map2state ="on";
+	}else{map2.style.width = "500px";
+			map2state = "off";}
+}
+var map3state = "off"
+	map3.onclick = function(){
+		if(map3state == "off")
+			{map3.style.width = "1400px";
+			map3state ="on";
+	}else{map3.style.width = "500px";
+			map3state = "off";}
+}
+var map4state = "off"
+	map4.onclick = function(){
+		if(map4state == "off")
+			{map4.style.width = "1400px";
+			map4state ="on";
+	}else{map4.style.width = "500px";
+			map4state = "off";}
+}
+var map5state = "off"
+	map5.onclick = function(){
+		if(map5state == "off")
+			{map5.style.width = "1400px";
+			map5state ="on";
+	}else{map5.style.width = "500px";
+			map5state = "off";}
+}
+var map6state = "off"
+	map6.onclick = function(){
+		if(map6state == "off")
+			{map6.style.width = "1400px";
+			map6state ="on";
+	}else{map6.style.width = "500px";
+			map6state = "off";}
+}
+</script>
+</html>
